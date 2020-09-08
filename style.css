@@ -3,15 +3,9 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: chernobyl;
     color: black;
     text-align: center;
 }
-
-.farcry5 {
-    height: 110vh;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
