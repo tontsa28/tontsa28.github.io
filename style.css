@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.farcry5 {
+    height: 110vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
