@@ -1,0 +1,18 @@
+body {
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url(fonts/Ubuntu-Bold.ttf);
+    font-style: normal;
+    font-weight: 100;
+    color: black;
+    font-size: 6rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Ubuntu-Bold';
+    font-weight: 100;
+    }
