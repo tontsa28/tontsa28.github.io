@@ -4,8 +4,14 @@ body {
 
 h1 {
     font-size: 6rem;
-    font-family: chernobyl;
     color: black;
     text-align: center;
+}
+
+@font-face {
+   font-family: 'ubuntu';
+   src: url
+   font-style: normal;
+   
 }
 }
