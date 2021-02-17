@@ -1,6 +1,4 @@
 # tontsa28.github.io
 
-This is a repository for my personal website, which is currently in development. The website works under domain [tontsa.me](https://tontsa.me). The repository only includes the files required to run the website.
-
-Screenshot of the current version of the website:
-![Screenshot](tontsame.png)
+This is a repository for my personal website, which is finally ready! The website can be used already, but I will keep evolving it in the future.
+The website works under the domain [tontsa.me](https://tontsa.me)
