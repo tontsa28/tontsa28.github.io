@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: "Ubuntu",sans-serif;
+    font-family: "Ubuntu", sans-serif;
     box-sizing: border-box;
 }
 
@@ -248,9 +248,14 @@ footer{
 
 .sm a{
     font-size: 24px;
+    background-size: 32px 32px;
 }
 
 .sm .fa-github{
+    color: #ffffff;
+}
+
+.sm .mario_favicon{
     color: #ffffff;
 }
 
