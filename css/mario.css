@@ -1,0 +1,77 @@
+*{
+    background-color: #121212;
+}
+
+.game {
+    width: 1500px;
+    height: 500px;
+    margin: auto;
+}
+
+#mario {
+    width: 128px;
+    height: 128px;
+    background-color: transparent;
+    background-image: url(../assets/mario_256pixel.png);
+    background-size: 128px 128px;
+    position: relative;
+    top: 372px;
+}
+
+.jump {
+    animation: jump 0.7s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 372px;
+    }
+
+    25% {
+        top: 236px;
+    }
+
+    50% {
+        top: 100px;
+    }
+
+    75% {
+        top: 236px;
+    }
+
+    100% {
+        top: 372px;
+    }
+}
+
+#pipe {
+    width: 128px;
+    height: 128px;
+    position: relative;
+    top: 245px;
+    left: 536px;
+    background-color: transparent;
+    background-image: url(../assets/pipe_256pixel.png);
+    background-size: 128px 128px;
+    animation: block 1s infinite linear;
+}
+
+@keyframes block {
+    0% {
+        left: 1500px;
+    }
+
+    100% {
+        left: -128px;
+    }
+}
+
+#ground {
+    width: 1500px;
+    height: 128px;
+    top: 245px;
+    position: relative;
+    background-color: transparent;
+    background-image: url(../assets/mario_ground_1500pixel_128pixel.png);
+    background-size: 1500px 128px;
+}
