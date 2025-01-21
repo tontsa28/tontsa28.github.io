@@ -1,0 +1,33 @@
+* {
+    margin: auto;
+    padding: 0;
+    text-decoration: none;
+    font-family: "JetBrains Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 150%;
+    background-color: #ffd480;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-shadow: 
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
